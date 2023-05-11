@@ -1,0 +1,23 @@
+body{
+/*
+background-color:pink;background-image:url(flower.png);background-repeat:repeat;background-position:200px 100px;background-attachment:fixed
+*/
+background:url(flower.png) no-repeat 200px 100px fixed aqua;
+}
+h1{
+background:pink;
+}
+p{
+background:lime;
+}
+#d1{
+background:purple;
+}
+
+.c1{
+background:orange;
+}
+
+.c2{
+color:blue;
+}

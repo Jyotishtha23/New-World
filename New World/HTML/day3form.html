@@ -1,0 +1,71 @@
+<html>
+<head>
+<title>form</title>
+</head>
+<body>
+<table border="1" align="center" width="40%">
+<tr>
+<td>
+<form enctype="multipart/form-data" method="get">
+<fieldset>
+<legend>Form Details</legend>
+<input type="hidden" name="h" value="101">
+
+
+<table width="100%" cellpadding="10">
+<tr bgcolor="purple">
+<td><label>Username:-</label></td><td><input type="text" name="uname" value="CNC" size="40" disabled></td>
+</tr>
+<tr>
+<td><label>Password:-</label></td><td><input type="password" name="pass" value=""readonly><br></td>
+</tr>
+<tr>
+<td><label>Gender:-</label></td><td><input type="radio" name="r" value="Male" checked>Male
+                       <input type="radio" name="r" value="Female">Female</td>
+</tr>					   
+<tr>
+<td><label>Skills:-</label></td><td><input type="checkbox" name="c" value="HTML">HTML
+                       <input type="checkbox" name="c1" value="CSS">CSS
+					   <input type="checkbox" name="c2" value="js">Javascript</td>
+					   </tr>
+<tr>
+<td><label>City:-</label></td><td><select name="city">
+             <option>Mumbai</option>
+			 <option selected>PUNE</option>
+			 <option>Nagpur</option>
+			 <option>Thane</option>
+			 </select></td>
+			 </tr>
+<tr>
+<td><label>Address:-</label></td><td><textarea name="address" cols="20" rows="5">Mumbai</textarea></td>
+</tr>
+<tr>
+<td><label>File:-</label></td><td><input type="File" name="f"></td>
+</tr>
+<tr>
+<td><label>Date:-</label></td><td><input type="Date" name="d"></td>
+</tr>
+<tr>
+<td><label>Email:-</label></td><td><input type="email" name="e"></td>
+</tr>
+<tr bgcolor="green">
+<td colspan="2" align="center">
+<input type="submit" value="SUBMIT">
+<input type="reset" value="clear">
+<input type="button" value="click">
+</td>
+</tr>
+</table>
+</fieldset>
+
+</form>
+
+
+
+
+
+</td>
+</tr>
+</table>
+</body>
+</html>
